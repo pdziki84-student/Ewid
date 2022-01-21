@@ -1,0 +1,48 @@
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : WystĄpi� og˘lny b�Ąd niemajĄcy bardziej szczeg˘�owego kodu b�©du.
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2022-01-21 21:30:23,856 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2022-01-21 21:36:40,508 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2022-01-21 21:38:07,277 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2022-01-21 21:49:57,324 : WARN  : main :  : Node : Numeric Binner : 3:2 : No column select for binning.
+2022-01-21 21:56:13,828 : WARN  : main :  : Node : Table Writer : 3:3 : Please specify a file
+2022-01-21 22:03:46,301 : WARN  : KNIME-Worker-10-Scatter Plot 3:3 :  : Node : Scatter Plot : 3:3 : Only the first 2500 rows are displayed.
+2022-01-21 22:03:46,413 : WARN  : KNIME-Worker-10-Scatter Plot 3:3 :  : Node : Scatter Plot : 3:3 : Table contains missing or unsupported values - these values will be omitted.
+2022-01-21 22:04:38,990 : WARN  : main :  : Node : Scatter Plot (local) : 3:4 : Some columns are ignored: too many/missing nominal values.
+2022-01-21 22:04:41,280 : WARN  : KNIME-Worker-11-Scatter Plot (local) 3:4 :  : Node : Scatter Plot (local) : 3:4 : Only the first 2500 rows are displayed.
+2022-01-21 22:14:26,127 : WARN  : main :  : Node : Scatter Plot (local) : 3:4 : Some columns are ignored: too many/missing nominal values.
+2022-01-21 22:14:28,680 : WARN  : KNIME-Worker-12-Numeric Binner 3:2 :  : Node : Scatter Plot (local) : 3:4 : Some columns are ignored: too many/missing nominal values.
+2022-01-21 22:15:11,105 : WARN  : KNIME-Worker-13-Scatter Plot (local) 3:4 :  : Node : Scatter Plot (local) : 3:4 : Only the first 2500 rows are displayed.
+2022-01-21 22:21:19,029 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : WystĄpi� og˘lny b�Ąd niemajĄcy bardziej szczeg˘�owego kodu b�©du.
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2022-01-21 22:21:19,045 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2022-01-21 22:21:55,796 : WARN  : main :  : Node : Histogram (local) : 0:5 : Please define the binning column.
+2022-01-21 22:22:10,633 : WARN  : main :  : Node : Histogram (local) : 0:5 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:22:38,127 : WARN  : main :  : Node : Histogram (local) : 0:5 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:23:00,938 : WARN  : main :  : Node : Histogram (local) : 0:5 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:23:41,830 : WARN  : main :  : Node : Histogram (local) : 0:5 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:47:13,121 : WARN  : main :  : Node : Histogram (local) : 0:6 : Please define the binning column.
+2022-01-21 22:47:34,798 : WARN  : main :  : Node : Scatter Plot (local) : 0:7 : Some columns are ignored: too many/missing nominal values.
+2022-01-21 22:47:58,261 : WARN  : main :  : Node : Histogram (local) : 0:6 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:48:20,980 : WARN  : main :  : Node : Histogram (local) : 0:6 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:48:49,973 : WARN  : main :  : Node : Histogram (local) : 0:6 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:50:22,908 : WARN  : main :  : Node : Histogram (local) : 0:6 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:50:58,696 : WARN  : main :  : Node : Scatter Plot (local) : 0:7 : Some columns are ignored: too many/missing nominal values.
+2022-01-21 22:51:00,617 : WARN  : KNIME-Worker-9-Scatter Plot (local) 0:7 :  : Node : Scatter Plot (local) : 0:7 : Only the first 2500 rows are displayed.
+2022-01-21 22:55:39,889 : WARN  : main :  : Node : Histogram (local) : 0:6 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:58:46,808 : WARN  : main :  : Node : Histogram (local) : 0:5 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:58:56,845 : WARN  : KNIME-Worker-11-Numeric Binner 0:2 :  : Node : Histogram (local) : 0:5 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-01-21 22:59:51,243 : WARN  : main :  : Node : Histogram (local) : 0:5 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
